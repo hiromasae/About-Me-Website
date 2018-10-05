@@ -1,9 +1,9 @@
 body {
-    font-size: 1em;
 	font-family: "Courier New", Courier, monospace
 }
 
 .topnav {
+    font-size: 2em;
     list-style-type: none;
     margin: 0;
     padding: 0;
