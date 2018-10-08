@@ -2,8 +2,19 @@ body {
 	font-family: "Courier New", Courier, monospace
 }
 
-.topnav {
+h1 {
+    text-align:center;
     font-size: 2em;
+    margin-top: 100px;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
+.topnav {
+    font-size: 1em;
     list-style-type: none;
     margin: 0;
     padding: 0;
