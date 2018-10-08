@@ -2,10 +2,19 @@ body {
 	font-family: "Courier New", Courier, monospace
 }
 
+iframe {
+    display: block;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 900px
+}
+
 h1 {
     text-align:center;
     font-size: 5em;
-    margin-top: 500px;
+    margin-top: 275px;
     color: white;
 }
 h2{
@@ -20,6 +29,9 @@ h2{
     padding: 0;
     overflow: hidden;
     background-color: black;
+    position: fixed;
+    top: 0;
+    width: 99%;
 }
 .topnav a {
     float: left;
@@ -38,3 +50,17 @@ h2{
     background-color: green;
 }
 
+.footer {
+    color: white;
+    font-size: 1em;
+    padding: 1px;
+    text-align: center;
+    background: black;
+    margin-top: 200px;
+}
+
+.linkedinlink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
