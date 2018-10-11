@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
 body {
-	font-family: "Courier New", Courier, monospace
+	font-family: 'Dosis', sans-serif;
 }
 
 
@@ -8,14 +10,16 @@ h1 {
     font-size: 5em;
     margin-top: 275px;
     color: white;
+    letter-spacing: 4px;
 }
 h2{
     text-align: center;
     font-size: 2em;
     color: white;
+    letter-spacing: 3px;
 }
 .topnav {
-    font-size: 2em;
+    font-size: 1.75em;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,6 +28,7 @@ h2{
     position: fixed;
     top: 0;
     width: 99%;
+    letter-spacing: 3px;
 }
 .topnav a {
     float: left;
@@ -34,8 +39,7 @@ h2{
     text-decoration: none;
 }
 .topnav a:hover:not(.active) {
-    background-color: white;
-    color: black
+    color: green
 }
 
 .active {
@@ -49,14 +53,16 @@ h2{
     text-align: center;
     background: black;
     margin-top: 200px;
+    width: 99%;
+    letter-spacing: 3px;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 15%;
-  padding: 67px;
-  margin-top: 180px;
+  width: 10%;
+  padding: 5%;
+  margin-top: -60px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -67,3 +73,11 @@ h2{
   clear: both;
   display: table;
 }
+
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    transition: transform .3s;
+}
+
